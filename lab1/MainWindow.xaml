@@ -1,0 +1,20 @@
+﻿<Window x:Class="lab1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Calculate" FontSize="40px" HorizontalAlignment="Left" Margin="467,297,0,0" VerticalAlignment="Top" Height="98" Width="277" Click="Button_Click"/>
+        <TextBox x:Name="AInput" HorizontalAlignment="Left" Height="17" Margin="64,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="62"/>
+        <TextBox x:Name="CInput" HorizontalAlignment="Left" Height="17" Margin="198,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="62"/>
+        <TextBox x:Name="BInput" HorizontalAlignment="Left" Height="17" Margin="131,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="62"/>
+        <Label Content="A:" HorizontalAlignment="Left" Margin="64,152,0,0" VerticalAlignment="Top" Width="55"/>
+        <Label Content="B:" HorizontalAlignment="Left" Margin="131,152,0,0" VerticalAlignment="Top" Width="56"/>
+        <Label Content="C:" HorizontalAlignment="Left" Margin="198,152,0,0" VerticalAlignment="Top" Width="55"/>
+        <Label x:Name="ResultOutput" FontSize="24px" HorizontalAlignment="Left" Height="48" Margin="95,244,0,0" VerticalAlignment="Top" Width="649"/>
+
+    </Grid>
+</Window>
